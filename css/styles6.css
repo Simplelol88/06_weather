@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in;
+    font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+a, button {
+    transition: all .4s ease-in;
+}
+body {
+    background: #2793CB;
+    border: 10px solid #247CAD;
+    min-height: 100%;
+}
+section {
+    background: #ffffff;
+    max-width: 67%;
+    margin: auto;
+    
+}
+.grid {
+    display: inline-block;
+    border: 1px solid #000000;
+    width: 100%;
+    font-size: 0px;
+}
+.town {
+    height: 100px;
+    display: inline-block;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid white;
+}
+.grid-1-2 {
+    width: 50%;
+}
+.grid-1-4 {
+    width: 25%
+}
+.grid-1-1 {
+    width: 100%;
+}
+p {
+    font-family: 'Lucida Sans Unicode' serif;
+    font-weight:bold;
+    color: white;
+    margin-top: 30px;
+}
+span, i, h1, h2  {
+    color: white;
+}
+.blue {
+    background: #636999;
+}
+.lightblue {
+    background: #24BDCB;
+}
+.purple {
+    background-color: #986F95;
+}
+.red {
+    background-color: #C75442;
+}
+.orange {
+    background-color: #E77144;
+}
+.yellow {
+    background-color: #FFCB5D;
+}
+.lightgreen {
+    background-color: #94C297;
+}
+.darkgreen {
+    background-color: #5E9494;
+}
+.pink {
+    background-color: #D07294;
+}
+.green {
+    background-color: #288D62;
+}
+.darkpurple {
+    background-color: #636999;
+}
