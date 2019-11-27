@@ -11,17 +11,20 @@ a, button {
 body {
     background: #2793CB;
     border: 10px solid #247CAD;
-    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh
+}
+.main {
+    max-width: 700px;
+    margin: auto;
 }
 section {
     background: #ffffff;
-    max-width: 67%;
-    margin: auto;
-    
+    border: 3px solid white;   
 }
 .grid {
     display: inline-block;
-    border: 1px solid #000000;
     width: 100%;
     font-size: 0px;
 }
@@ -46,11 +49,44 @@ p {
     font-family: 'Lucida Sans Unicode' serif;
     font-weight:bold;
     color: white;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 span, i, h1, h2  {
     color: white;
 }
+span {
+    margin-right: 5px;
+}
+h1 {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.title {
+    margin-top: 30px;
+}
+.title i {
+    font-size: 20px;
+}
+span + i,
+span {
+    font-size: 20px;
+    font-weight: normal;
+
+}
+section:hover .town{
+    opacity: 0.5;
+}
+section:hover .town:hover{
+    opacity: 1;
+}
+/* Colors */
 .blue {
     background: #636999;
 }
